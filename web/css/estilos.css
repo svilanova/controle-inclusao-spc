@@ -12,13 +12,13 @@ and open the template in the editor.
 
     /*Define  que todos os elementos da página, ficarão em negrito e com a fonte arial */
 
-    font-weight: bold;
+    /*font-weight: bold;*/
 
-    font-family: times new roman;
+    /*font-family: times new roman;*/
 
     /*Define a tamanho da fonte para todos os elementos */
 
-    font-size: 10px;
+    /*font-size: 10px;*/
 
 }
 
@@ -48,18 +48,8 @@ and open the template in the editor.
 
 .botoes {
 
-    /*Especifica a cor chocolate, como pano de fundo do elemento */
-
-    background-color: #D2691E;
-
-    /*Especifica como preta a cor da fonte do elemento */
-
-    color: #FFFFFF;
-
-    /*Define a borda do elemento, com um efeito de alto-relevo menor que o padrão */
-
-    border: 1px outset;
-
+       height: 80px;
+       width: 240px;
 }
 
  
@@ -72,8 +62,9 @@ and open the template in the editor.
 
 }
 
- 
-
+.semBorda tr, .semBorda td {
+	border: none !important;
+}
  
 
 legend{
